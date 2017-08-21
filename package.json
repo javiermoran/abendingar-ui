@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preinstall": "npm install -g http-server && npm install -g angular-cli",
-    "postinstall": "ls && ng build && mv dist/* ."
+    "preinstall": "npm install -g http-server && npm install -g angular-cli@1.0.6",
+    "postinstall": "ng build && mv dist/* ."
   },
   "private": true,
   "dependencies": {
